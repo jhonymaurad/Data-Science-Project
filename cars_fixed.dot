@@ -1,0 +1,32 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="City FE (Guide) - Conventional Fuel <= 18.5\nmse = 239997.15\nsamples = 1007\nvalue = 1896.425"] ;
+1 [label="City FE (Guide) - Conventional Fuel <= 14.5\nmse = 146643.239\nsamples = 378\nvalue = 2354.101"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="City FE (Guide) - Conventional Fuel <= 12.5\nmse = 141346.372\nsamples = 84\nvalue = 2861.905"] ;
+1 -> 2 ;
+3 [label="mse = 133600.0\nsamples = 15\nvalue = 3470.0"] ;
+2 -> 3 ;
+4 [label="mse = 45168.032\nsamples = 69\nvalue = 2729.71"] ;
+2 -> 4 ;
+5 [label="City FE (Guide) - Conventional Fuel <= 16.5\nmse = 53430.66\nsamples = 294\nvalue = 2209.014"] ;
+1 -> 5 ;
+6 [label="mse = 42373.057\nsamples = 138\nvalue = 2349.638"] ;
+5 -> 6 ;
+7 [label="mse = 30244.083\nsamples = 156\nvalue = 2084.615"] ;
+5 -> 7 ;
+8 [label="City FE (Guide) - Conventional Fuel <= 24.5\nmse = 94570.583\nsamples = 629\nvalue = 1621.383"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="City FE (Guide) - Conventional Fuel <= 21.5\nmse = 33222.094\nsamples = 437\nvalue = 1783.295"] ;
+8 -> 9 ;
+10 [label="mse = 23847.012\nsamples = 258\nvalue = 1869.186"] ;
+9 -> 10 ;
+11 [label="mse = 20775.725\nsamples = 179\nvalue = 1659.497"] ;
+9 -> 11 ;
+12 [label="City FE (Guide) - Conventional Fuel <= 30.5\nmse = 38728.773\nsamples = 192\nvalue = 1252.865"] ;
+8 -> 12 ;
+13 [label="mse = 17204.509\nsamples = 151\nvalue = 1328.146"] ;
+12 -> 13 ;
+14 [label="mse = 20258.775\nsamples = 41\nvalue = 975.61"] ;
+12 -> 14 ;
+}
